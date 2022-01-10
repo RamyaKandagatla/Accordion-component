@@ -28,27 +28,27 @@ function App() {
 
 const data=[
   {
-      question:'what is hoisting ? ',
+      question:'Question1? ',
       answer:'Lorem ipsum dolor sit amet. Non quia quaerat est similique molestias id error quia ad corrupti nihil 33 quaerat dolor. Qui quidem numquam ex eligendi repudiandae ut atque enim et natus corrupti qui vitae eaque At neque veritatis ut magnam molestias. Et dolor non sint quidem nam tenetur nulla sit quas perspiciatis ea asperiores veritatis est optio consequatur!'
   },
   {
-      question:'semantic tags ? ',
+      question:'Question2? ',
       answer:'Lorem ipsum dolor sit amet. Non quia quaerat est similique molestias id error quia ad corrupti nihil 33 quaerat dolor. Qui quidem numquam ex eligendi repudiandae ut atque enim et natus corrupti qui vitae eaque At neque veritatis ut magnam molestias. Et dolor non sint quidem nam tenetur nulla sit quas perspiciatis ea asperiores veritatis est optio consequatur!'
   },
   {
-      question:'settimeout with var and let ? ',
+      question:'question3? ',
       answer:'Lorem ipsum dolor sit amet. Non quia quaerat est similique molestias id error quia ad corrupti nihil 33 quaerat dolor. Qui quidem numquam ex eligendi repudiandae ut atque enim et natus corrupti qui vitae eaque At neque veritatis ut magnam molestias. Et dolor non sint quidem nam tenetur nulla sit quas perspiciatis ea asperiores veritatis est optio consequatur!'
   },
   {
-      question:'ES6 new features ? ',
+      question:'question4? ',
       answer:'Lorem ipsum dolor sit amet. Non quia quaerat est similique molestias id error quia ad corrupti nihil 33 quaerat dolor. Qui quidem numquam ex eligendi repudiandae ut atque enim et natus corrupti qui vitae eaque At neque veritatis ut magnam molestias. Et dolor non sint quidem nam tenetur nulla sit quas perspiciatis ea asperiores veritatis est optio consequatur!'
   },
   {
-      question:'HTML CSS Frameworks ? ',
+      question:'question5? ',
       answer:'Lorem ipsum dolor sit amet. Non quia quaerat est similique molestias id error quia ad corrupti nihil 33 quaerat dolor. Qui quidem numquam ex eligendi repudiandae ut atque enim et natus corrupti qui vitae eaque At neque veritatis ut magnam molestias. Et dolor non sint quidem nam tenetur nulla sit quas perspiciatis ea asperiores veritatis est optio consequatur!'
   },
   {
-      question:'stash in git ? ',
+      question:'question6? ',
       answer:'Lorem ipsum dolor sit amet. Non quia quaerat est similique molestias id error quia ad corrupti nihil 33 quaerat dolor. Qui quidem numquam ex eligendi repudiandae ut atque enim et natus corrupti qui vitae eaque At neque veritatis ut magnam molestias. Et dolor non sint quidem nam tenetur nulla sit quas perspiciatis ea asperiores veritatis est optio consequatur!'
   },
 
