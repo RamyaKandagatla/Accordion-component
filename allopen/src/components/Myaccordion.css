@@ -1,0 +1,22 @@
+.main-content{
+    display:flex;
+    
+}
+
+.questions{
+    display: flex;
+    padding:10px;
+    background-color: palegreen;
+    margin:5px 3px;
+
+}
+.toggle{
+    background-color: darksalmon;
+    padding:3px;
+    margin:20px 3px;
+}
+.answers{
+    margin: 5px 3px;
+    background-color: khaki;
+}
+
