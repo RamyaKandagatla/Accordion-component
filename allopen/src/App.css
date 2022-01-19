@@ -12,13 +12,3 @@
 .accordion{
     width:500px;
 }
-.item{
-    background-color: coral;
-    margin-bottom: 5px;
-    padding: 10px 20px;
-}
-.title{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}

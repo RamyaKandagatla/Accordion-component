@@ -1,25 +1,20 @@
-import {useState} from 'react' ;
+import React from 'react' ;
 import './App.css';
+
+import Accordion from './components/accordion';
 
 
 function App() {
-  const[show,setShow] = useState(null);
+  
+  
   return (
     <div className='wrapper'>
       <div className='accordion'>
-      {data.map((item,i)=>(
-        <div className='item'>
-          <div className='title' onClick={()=>setShow(i)} key={i}>
-            
-            <h3>{item.question}</h3>
-            <span>{show === i ? '-':'+'}</span>
-
-          </div>
-         
-          {show===i ? (<p>{item.answer}</p>):null}
-        </div>
+      {data.map((item,i)=>{
+        const {question,answer}=item;
+        return <Accordion answer={answer} question={question}/>
       
-      )
+  }
 
       )}
 
@@ -27,6 +22,7 @@ function App() {
     </div>
   );
 }
+
 
 const data=[
   {
