@@ -3,18 +3,20 @@ import './App.css';
 
 
 function App() {
-  const[show,setShow] = useState(true);
+  const[show,setShow] = useState(null);
   return (
     <div className='wrapper'>
       <div className='accordion'>
       {data.map((item,i)=>(
         <div className='item'>
-          <div className='title'>
-            <h2>{item.question}</h2>
-            {/* <span onClick={()=>setShow(!show)}>{ show ? "-":"+"}</span> */}
+          <div className='title' onClick={()=>setShow(i)} key={i}>
+            
+            <h3>{item.question}</h3>
+            <span>{show === i ? '-':'+'}</span>
+
           </div>
-          <div className='content'>{show && <p>{item.answer}</p>}</div>
-          
+         
+          {show===i ? (<p>{item.answer}</p>):null}
         </div>
       
       )
