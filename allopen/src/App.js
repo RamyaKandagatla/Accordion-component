@@ -3,7 +3,7 @@ import './App.css';
 
 
 function App() {
-  const[show,setShow] = useState(false);
+  const[show,setShow] = useState(true);
   return (
     <div className='wrapper'>
       <div className='accordion'>
@@ -11,7 +11,7 @@ function App() {
         <div className='item'>
           <div className='title'>
             <h2>{item.question}</h2>
-            <span onClick={()=>setShow(!show)}>{ show ? "-":"+"}</span>
+            {/* <span onClick={()=>setShow(!show)}>{ show ? "-":"+"}</span> */}
           </div>
           <div className='content'>{show && <p>{item.answer}</p>}</div>
           
